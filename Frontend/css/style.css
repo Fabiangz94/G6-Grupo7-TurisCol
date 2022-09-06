@@ -1,0 +1,118 @@
+*{
+	font-family: Verdana;
+}
+
+h2{
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  background-color: transparent;
+  color: rgb(19, 98, 172);
+  background-color: "img/guatape1.png";
+}
+
+h3{
+  font-family: sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  background-color: transparent;
+  color: rgb(26, 141, 248);
+  text-shadow: 1px 1px rgb(51, 56, 66);
+}
+
+
+body{
+	background-color:rgb(157, 203, 247) ; 
+}
+
+.header__Encabezado {
+    max-width: 100%;
+}
+
+.container{
+	background-color:rgb(157, 203, 247);
+	width: 95%;
+	margin:auto;  /*centran la página*/
+	margin-top: 10px;
+}
+
+.menu__lista{
+  list-style-type: none;  /*quitar las viñetas*/
+  margin: 0;   
+  padding: 0;
+  overflow: hidden;   /*contenido no se desborde*/
+  background-color: rgb(136, 147, 156);
+  font-weight: bold;
+}
+
+.menu__lista li{
+	float: left;
+}
+
+.menu__lista li a{
+    display: block;  /*convertir elementos líneas - bloque*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration-line: none;
+  }
+
+.menu__lista li a:hover{
+	background-color: rgb(103, 115, 126);
+}
+
+.menu__active{
+  background-color: rgb(103, 115, 126);
+}
+
+/*Boton desplegable Regiones*/
+
+.menu__sublista {
+  background-color: rgb(136, 147, 156);
+  list-style-type: none; /*quitar las viñetas*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*contenido no se desborde*/ 
+  position: absolute; /* conforme al menu */
+  display: none;  /*No se visualiza */
+}
+
+.menu__sublista li a:hover{
+  background-color: rgb(103, 115, 126);
+}
+
+.menu__lista li:hover > ul {
+  display: block;
+}
+
+
+div.imagen {
+  display: flex;
+  max-width: 100%;
+ margin-top: 50px; 
+}
+
+
+.main__img-izq{
+	float: left;
+  border: 20px solid rgb(157, 203, 247);
+}
+.main__img-der{
+	float: right;
+  border: 20px solid rgb(157, 203, 247);
+}
+
+
+footer{
+	background-color: #333; 
+	padding: 20px;
+}
+
+.footer__texto{
+	color: white;
+}
+
+.footer__texto__img{
+	width: 40px;
+  float: right;
+}
